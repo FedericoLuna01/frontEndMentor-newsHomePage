@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">  
+  <title>Frontend Mentor | News homepage</title>
+
+</head>
+<body>
+  
+  <header>
+    <div class="nav">
+      <img src="assets/images/logo.svg" alt="" class="nav__logo">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__a">Home</a></li> 
+        <li class="nav__item"><a href="#new" class="nav__a">New</a></li>
+        <li class="nav__item"><a href="" class="nav__a">Popular</a></li>
+        <li class="nav__item"><a href="" class="nav__a">Trending</a></li>
+        <li class="nav__item"><a href="" class="nav__a">Categories</a></li>
+      </ul>
+      <img src="assets/images/icon-menu.svg" alt="" class="nav__hamburger">
+    </div>
+  </header>
+  <main>
+    <div class="wrapper">
+      <div class="first" id="home">
+        <img src="assets/images/image-web-3-desktop.jpg" alt="" class="first__img">
+        <!-- <div class="container"> -->
+          <h1 class="first__h1">The Bright Future of Web 3.0?</h1>
+          <div class="text">
+          <p class="first__p">
+            We dive into the next evolution of the web that claims 
+            to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?
+          </p>
+          <a href="#" class="first__button">Read more</a>
+          </div>
+        <!-- </div> -->
+      </div>
+      <div class="new" id="new">
+        <h2 class="new__h2">New</h2>
+        <div class="new__site">
+          <h3 class="new__h3">Hydrogen VS Electric Cars</h3>
+          <p class="new__p">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <div class="new__site">
+          <h3 class="new__h3">The Downsides of AI Artistry</h3>
+          <p class="new__p">What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <div class="new__site">
+          <h3 class="new__h3">Is VC Funding Drying Up?</h3>
+          <p class="new__p">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card_container">
+      <div class="card">
+        <img src="assets/images/image-retro-pcs.jpg" alt="" class="card__img">
+        <div class="card__words">
+          <p class="card__number">01</p>
+          <p class="card__title">Reviving Retro PCs</p>
+          <p class="card__p">What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/images/image-top-laptops.jpg" alt="" class="card__img">
+        <div class="card__words">
+          <p class="card__number">02</p>
+          <p class="card__title">Top 10 Laptops of 2022</p>
+          <p class="card__p">Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/images/image-gaming-growth.jpg" alt="" class="card__img">
+        <div class="card__words">
+          <p class="card__number">03</p>
+          <p class="card__title">The Growth of Gaming</p>
+          <p class="card__p">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Federico Luna</a>.
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
